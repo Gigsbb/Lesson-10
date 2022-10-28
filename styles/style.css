@@ -1,1 +1,107 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 
+
+
+
+h2{
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 200px;
+    color:#171717;
+    font-weight: bold;
+}
+
+.dot1{
+    width: 8px;
+    height: 8px;
+    background-color: #0A22F4;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.dot2{
+    width: 8px;
+    height: 8px;
+    background-color: #0A22F4;
+    margin-right: 15px;
+    border-radius: 50%;
+    opacity: 30%;
+}
+
+.dot3{
+    width: 8px;
+    height: 8px;
+    background-color: #0A22F4;
+    border-radius: 50%;
+    opacity: 30%;
+}
+
+.dots{
+    display: flex;
+    margin:200px;
+    justify-content: space-between;
+    text-align: end;
+    height: 0%;
+}
+
+.text{
+    font-family: "Neue Helvetica";
+    font-size:15px;
+    color:#171717;
+    line-height: 20px;
+    width: 400px;
+    margin:50px;    
+    
+}
+
+.text-blue{
+    color:blue
+}
+
+
+.grids{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 100px 300px; 
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+
+}
+
+/* Footer Section */
+
+footer{
+    background-color: blue;
+    height: 100vh;
+
+    
+}
+
+.contact{
+	color: #FFFFFF;
+	font-size:30px;
+	margin-left:150px;
+	padding: 50px;
+}
+
+iframe{
+
+        margin-left:200px;
+
+}
+
+.contact-text{
+	margin-left:200px;
+	margin-bottom: 50px;
+	width: 400px;
+	color: #FFFFFF;
+	font-size: 15px;
+
+}
