@@ -1,18 +1,21 @@
+
 .container{
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    height: auto;
+    width: auto;
+    
+    
+
 }
-
-
-
 
 h2{
     font-weight: bold;
-    font-size:20px;
-    margin-top: 200px;
+    font-size:30px;
+    margin: 200px;
     color:#171717;
     font-weight: bold;
+    
 }
 
 .dot1{
@@ -43,18 +46,20 @@ h2{
 .dots{
     display: flex;
     margin:200px;
-    justify-content: space-between;
-    text-align: end;
-    height: 0%;
+    justify-content: end;
 }
+
 
 .text{
     font-family: "Neue Helvetica";
-    font-size:15px;
+    font-size:16px;
     color:#171717;
-    line-height: 20px;
+    line-height: 25px;
     width: 400px;
-    margin:50px;    
+    margin-bottom: 500px;
+    margin-left: 200px;
+    
+    
     
 }
 
@@ -65,13 +70,16 @@ h2{
 
 .grids{
     display: flex;
-    justify-content: center;
-    margin: 0px 0px 100px 300px; 
+    justify-content:space-between;
+    align-items: center;
+
+
 }
 .images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 300px;
+    margin-bottom: 400px;
+    margin-right: 150px;
 
 }
 
@@ -79,7 +87,8 @@ h2{
 
 footer{
     background-color: blue;
-    height: 100vh;
+    height:100vh;
+    width: auto;
 
     
 }
@@ -87,21 +96,64 @@ footer{
 .contact{
 	color: #FFFFFF;
 	font-size:30px;
-	margin-left:150px;
+	margin-left:70px;
 	padding: 50px;
 }
 
 iframe{
 
-        margin-left:200px;
+        margin-left:120px;
 
 }
 
 .contact-text{
-	margin-left:200px;
+	margin-left:120px;
 	margin-bottom: 50px;
 	width: 400px;
 	color: #FFFFFF;
-	font-size: 15px;
+	font-size: 16px;
+    line-height: 25px;
 
 }
+
+.call{
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+}
+
+
+.Message{
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+}
+
+.form-now{
+    display:grid;
+    justify-content: end;
+    line-height: 50px;
+    margin-right:150px;
+    color: #FFFFFF;
+    margin-top: 120px;
+    font-size: 16px;
+}   
+
+input{
+    width: 300px;
+}
+
+
+button{
+    margin:50px 0 0 200px;
+    
+}
+.footer1{
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+/* .footer-contact{
+    display: grid;
+} */
